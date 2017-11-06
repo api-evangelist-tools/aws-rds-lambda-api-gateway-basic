@@ -2,7 +2,8 @@
 layout: default
 title: Simple API With AWS RDS, Lambda, and API Gateway
 ---
-## Simple API With AWS RDS, Lambda, and API Gateway
+<h3>Simple API With AWS RDS, Lambda, and API Gateway</h3>
+
 <p><img src="https://s3.amazonaws.com/kinlane-productions/amazon/api-gateway/aws-rds-lambda-api-gateway.jpg" align="right" width="45%" style="padding: 15px;" /></p>[I wrote about a simple API with AWS DynamoDB, Lambda, and API Gateway last week](http://apievangelist.com/2017/10/23/a-simple-api-with-aws-dynamodb-lambda-and-api-gateway/). I like this approach because of the simple nature of AWs DynamoDB. One benefit of going this route is that you can even bypass Lambda, as the AWS API Gateway can work directly with AWS DynamoDB API. I'm just playing around with different configurations and pushing forward my understanding of what is possible, and this week I switched out the database in this with AWS RDS, which opens up the ability to use MySQL or Postgres as the backend for any API.
 
 For this example, I'm using a simple items database, which you can build with this SQL script after you fire up an RDS instance (I'm using MySQL):
