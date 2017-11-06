@@ -1,0 +1,30 @@
+---
+name: Item API
+description: A sample API using RDS, Lambda, and API Gateway
+image: https://s3.amazonaws.com/kinlane-productions/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+tags:
+- sample
+- aws rds
+- aws lambda
+- aws api gateway
+- api
+created: '2017-11-06'
+modified: '2017-11-06'
+url: http://rds.lambda.api.gateway.sample.apievangelist.com/apis.json
+specificationVersion: '0.14'
+apis:
+- name: Item API
+  description: A sample API using RDS, Lambda, and API Gateway
+  image: https://s3.amazonaws.com/kinlane-productions/api-evangelist-logos/api-evangelist-butterfly-vertical.png
+  humanURL: http://rds.lambda.api.gateway.sample.apievangelist.com
+  baseURL: http://rds.lambda.api.gateway.sample.apievangelist.com
+  tags: []
+  properties:
+  - type: x-openapi
+    url: http://rds.lambda.api.gateway.sample.apievangelist.com/openapi.json
+  contact:
+  - FN: API Evangelist
+    Url: https://apievangelist.com
+maintainers:
+- FN: API Evangelist
+  X-twitter: apievangelist

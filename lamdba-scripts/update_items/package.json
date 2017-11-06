@@ -1,0 +1,9 @@
+{
+  "name": "Update Account",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mysql": "*"
+  }
+}
